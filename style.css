@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     position: fixed;
     top: 4vh;
@@ -26,6 +30,7 @@ li a {
     padding: 1vw;
     margin: 0 1vw;
     font-size: 1vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .shoes {
