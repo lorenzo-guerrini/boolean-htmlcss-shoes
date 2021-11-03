@@ -10,6 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/*Menu in alto*/
 nav {
     position: fixed;
     top: 4vh;
@@ -22,7 +23,7 @@ nav li{
     font-family: 'Press Start 2P', cursive;
 }
 
-li a {
+nav li a {
     background-color: white;
     border-radius: 50%;
     color: black;
@@ -31,8 +32,24 @@ li a {
     margin: 0 1vw;
     font-size: 1vw;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px lightgray;
 }
 
+nav li a:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.1);
+    text-shadow: 1px 1px gray;
+}
+
+nav li a:active {
+    background-color: white;
+    color: black;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px gray;
+}
+
+/*Scarpe*/
 .shoes {
     height: 100vh;
 }
@@ -57,19 +74,19 @@ li a {
     font-size: 2vw;
     line-height: 3vw;
     padding: 0 16%;
+    text-shadow: 1px 1px grey;
 }
-
-#shoe-1 {
+#shoes-1 {
     background-color: #E13E21;
     color: #FEFE4C;
 }
 
-#shoe-2 {
+#shoes-2 {
     background-color: #417C23;
     color: #FEFE4C;
 }
 
-#shoe-3 {
+#shoes-3 {
     background-color: #FEFE4C;
     color: #417C23;
 }
